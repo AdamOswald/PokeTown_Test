@@ -1,0 +1,25 @@
+//渠道名
+name=zhuodong
+//渠道ID
+id=1235
+//是否使用第3方用户使用?
+3rdUserSystem=true
+//是否存在登出功能, 填渠道号（子渠道号）?
+notExistLogoutChannel=5005,5013,600100063,600100051,600100001,500100001,1002,1235
+//是否显示客服信息以及网站入口按钮?
+showCustomServer=false
+//是否设置AccessToken,少数SDK需要用到?
+setAccessToken=false
+//是否在登出游戏时提交玩家数据?
+submitDataWhenLogout=false
+
+
+//域名
+//domain=http://nixitw.quanmaihuyu.com
+//domain=http://kdyglogin.pkpkpk.cn
+//domain=http://10.0.0.93:8080
+//口袋逆袭简体
+//domain=http://kdnxft.saturngamego.com
+//口袋逆袭英文
+//domain=http://139.199.222.89:8083
+domain=http://nixien.saturngamego.com
