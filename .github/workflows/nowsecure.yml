@@ -43,7 +43,7 @@ jobs:
         uses: nowsecure/nowsecure-action@901b53b55dfe9d9813e280078163629a04117269
         with:
           token: ${{ secrets.NS_TOKEN }}
-          app_file: app-debug.apk                 # Update this to a path to your .ipa or .apk
+          app_file: pocketown-1-0-1.apk                # Update this to a path to your .ipa or .apk
           group_id: {{ groupId }}                 # Update this to your desired Platform group ID
 
       - name: Upload SARIF file
